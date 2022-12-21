@@ -1,0 +1,809 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EC8AAD2951FF3A00C93BB5 /* Teacher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC8AAC2951FF3A00C93BB5 /* Teacher.swift */; };
+		00EC8AAF2952226200C93BB5 /* SugnUp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC8AAE2952226200C93BB5 /* SugnUp2.swift */; };
+		00EC8AB429525F8500C93BB5 /* NewServiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC8AB229525F8500C93BB5 /* NewServiceViewModel.swift */; };
+		00EC8AB529525F8500C93BB5 /* LearnerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC8AB329525F8500C93BB5 /* LearnerListViewModel.swift */; };
+		00EC8AB929525FAD00C93BB5 /* TrainerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC8AB729525FAD00C93BB5 /* TrainerList.swift */; };
+		00EC8ABA29525FAD00C93BB5 /* LearnerList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00EC8AB829525FAD00C93BB5 /* LearnerList.swift */; };
+		9015B45D2950E48500749C4D /* SkillUpLastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B45C2950E48500749C4D /* SkillUpLastApp.swift */; };
+		9015B45F2950E48500749C4D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B45E2950E48500749C4D /* ContentView.swift */; };
+		9015B4612950E48600749C4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9015B4602950E48600749C4D /* Assets.xcassets */; };
+		9015B4642950E48600749C4D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9015B4632950E48600749C4D /* Preview Assets.xcassets */; };
+		9015B46E2950E48600749C4D /* SkillUpLastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B46D2950E48600749C4D /* SkillUpLastTests.swift */; };
+		9015B4782950E48600749C4D /* SkillUpLastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4772950E48600749C4D /* SkillUpLastUITests.swift */; };
+		9015B47A2950E48600749C4D /* SkillUpLastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4792950E48600749C4D /* SkillUpLastUITestsLaunchTests.swift */; };
+		9015B4872950E51700749C4D /* onBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4862950E51700749C4D /* onBoarding.swift */; };
+		9015B4892950E55600749C4D /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4882950E55600749C4D /* Home.swift */; };
+		9015B48D2950E58200749C4D /* TrainerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B48C2950E58200749C4D /* TrainerInfo.swift */; };
+		9015B48F2950E59400749C4D /* Favourite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B48E2950E59400749C4D /* Favourite.swift */; };
+		9015B4912950E5A100749C4D /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4902950E5A100749C4D /* Booking.swift */; };
+		9015B4932950E5B100749C4D /* CheckBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4922950E5B100749C4D /* CheckBoxView.swift */; };
+		9015B4952950E5D700749C4D /* QrCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4942950E5D700749C4D /* QrCodeView.swift */; };
+		9015B4992950E5F600749C4D /* Bkgray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4982950E5F600749C4D /* Bkgray.swift */; };
+		9015B49B2950E60E00749C4D /* Bkgreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B49A2950E60E00749C4D /* Bkgreen.swift */; };
+		9015B49D2950E62000749C4D /* BKpur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B49C2950E62000749C4D /* BKpur.swift */; };
+		9015B49F2950E63300749C4D /* MyMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B49E2950E63300749C4D /* MyMap.swift */; };
+		9015B4A12950E64300749C4D /* CodeScanningTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4A02950E64300749C4D /* CodeScanningTest.swift */; };
+		9015B4A32950E65200749C4D /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4A22950E65200749C4D /* SignIn.swift */; };
+		9015B4A52950E66000749C4D /* SugnUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4A42950E66000749C4D /* SugnUp.swift */; };
+		9015B4A72950E66D00749C4D /* QRFailureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4A62950E66D00749C4D /* QRFailureView.swift */; };
+		9015B4A92950E68000749C4D /* QRTrue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4A82950E68000749C4D /* QRTrue.swift */; };
+		9015B4AD2950E69E00749C4D /* TabeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4AC2950E69E00749C4D /* TabeView.swift */; };
+		9015B4AF2950E6AD00749C4D /* RequestslistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4AE2950E6AD00749C4D /* RequestslistView.swift */; };
+		9015B4B12950E6BD00749C4D /* ServicesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4B02950E6BC00749C4D /* ServicesListView.swift */; };
+		9015B4B32950E6DC00749C4D /* SettingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4B22950E6DC00749C4D /* SettingPage.swift */; };
+		9015B4B52950E6E900749C4D /* AddNewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4B42950E6E900749C4D /* AddNewService.swift */; };
+		9015B4B72950E6F600749C4D /* EditService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4B62950E6F600749C4D /* EditService.swift */; };
+		9015B4B92950E70500749C4D /* SelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4B82950E70500749C4D /* SelectButton.swift */; };
+		9015B4BB2950E71600749C4D /* TrainerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4BA2950E71600749C4D /* TrainerProfile.swift */; };
+		9015B4BD2950E72400749C4D /* LearnerProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4BC2950E72400749C4D /* LearnerProfile.swift */; };
+		9015B4BF2950E73500749C4D /* Payment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9015B4BE2950E73500749C4D /* Payment.swift */; };
+		9015B4C32950EBBF00749C4D /* iPaymentButton in Frameworks */ = {isa = PBXBuildFile; productRef = 9015B4C22950EBBF00749C4D /* iPaymentButton */; };
+		9015B4C62950EC2E00749C4D /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 9015B4C52950EC2E00749C4D /* CodeScanner */; };
+		90B494EB2950EFE5005EE03F /* MyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90B494EA2950EFE5005EE03F /* MyTimer.swift */; };
+		90F6BE5D2951FA48003D2A9B /* Signin2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90F6BE5C2951FA48003D2A9B /* Signin2.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9015B46A2950E48600749C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9015B4512950E48500749C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9015B4582950E48500749C4D;
+			remoteInfo = SkillUpLast;
+		};
+		9015B4742950E48600749C4D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9015B4512950E48500749C4D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9015B4582950E48500749C4D;
+			remoteInfo = SkillUpLast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00EC8AAC2951FF3A00C93BB5 /* Teacher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Teacher.swift; sourceTree = "<group>"; };
+		00EC8AAE2952226200C93BB5 /* SugnUp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugnUp2.swift; sourceTree = "<group>"; };
+		00EC8AB029525ECE00C93BB5 /* SkillUpLast.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkillUpLast.entitlements; sourceTree = "<group>"; };
+		00EC8AB229525F8500C93BB5 /* NewServiceViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewServiceViewModel.swift; sourceTree = "<group>"; };
+		00EC8AB329525F8500C93BB5 /* LearnerListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnerListViewModel.swift; sourceTree = "<group>"; };
+		00EC8AB729525FAD00C93BB5 /* TrainerList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainerList.swift; sourceTree = "<group>"; };
+		00EC8AB829525FAD00C93BB5 /* LearnerList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LearnerList.swift; sourceTree = "<group>"; };
+		9015B4592950E48500749C4D /* SkillUpLast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkillUpLast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9015B45C2950E48500749C4D /* SkillUpLastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillUpLastApp.swift; sourceTree = "<group>"; };
+		9015B45E2950E48500749C4D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9015B4602950E48600749C4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9015B4632950E48600749C4D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9015B4692950E48600749C4D /* SkillUpLastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillUpLastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9015B46D2950E48600749C4D /* SkillUpLastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillUpLastTests.swift; sourceTree = "<group>"; };
+		9015B4732950E48600749C4D /* SkillUpLastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkillUpLastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9015B4772950E48600749C4D /* SkillUpLastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillUpLastUITests.swift; sourceTree = "<group>"; };
+		9015B4792950E48600749C4D /* SkillUpLastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillUpLastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9015B4862950E51700749C4D /* onBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = onBoarding.swift; sourceTree = "<group>"; };
+		9015B4882950E55600749C4D /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		9015B48C2950E58200749C4D /* TrainerInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerInfo.swift; sourceTree = "<group>"; };
+		9015B48E2950E59400749C4D /* Favourite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favourite.swift; sourceTree = "<group>"; };
+		9015B4902950E5A100749C4D /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		9015B4922950E5B100749C4D /* CheckBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckBoxView.swift; sourceTree = "<group>"; };
+		9015B4942950E5D700749C4D /* QrCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrCodeView.swift; sourceTree = "<group>"; };
+		9015B4982950E5F600749C4D /* Bkgray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bkgray.swift; sourceTree = "<group>"; };
+		9015B49A2950E60E00749C4D /* Bkgreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bkgreen.swift; sourceTree = "<group>"; };
+		9015B49C2950E62000749C4D /* BKpur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BKpur.swift; sourceTree = "<group>"; };
+		9015B49E2950E63300749C4D /* MyMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMap.swift; sourceTree = "<group>"; };
+		9015B4A02950E64300749C4D /* CodeScanningTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanningTest.swift; sourceTree = "<group>"; };
+		9015B4A22950E65200749C4D /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		9015B4A42950E66000749C4D /* SugnUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SugnUp.swift; sourceTree = "<group>"; };
+		9015B4A62950E66D00749C4D /* QRFailureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRFailureView.swift; sourceTree = "<group>"; };
+		9015B4A82950E68000749C4D /* QRTrue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRTrue.swift; sourceTree = "<group>"; };
+		9015B4AC2950E69E00749C4D /* TabeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabeView.swift; sourceTree = "<group>"; };
+		9015B4AE2950E6AD00749C4D /* RequestslistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestslistView.swift; sourceTree = "<group>"; };
+		9015B4B02950E6BC00749C4D /* ServicesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServicesListView.swift; sourceTree = "<group>"; };
+		9015B4B22950E6DC00749C4D /* SettingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingPage.swift; sourceTree = "<group>"; };
+		9015B4B42950E6E900749C4D /* AddNewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewService.swift; sourceTree = "<group>"; };
+		9015B4B62950E6F600749C4D /* EditService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditService.swift; sourceTree = "<group>"; };
+		9015B4B82950E70500749C4D /* SelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectButton.swift; sourceTree = "<group>"; };
+		9015B4BA2950E71600749C4D /* TrainerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainerProfile.swift; sourceTree = "<group>"; };
+		9015B4BC2950E72400749C4D /* LearnerProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnerProfile.swift; sourceTree = "<group>"; };
+		9015B4BE2950E73500749C4D /* Payment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Payment.swift; sourceTree = "<group>"; };
+		9015B4C02950EA6900749C4D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		90B494EA2950EFE5005EE03F /* MyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTimer.swift; sourceTree = "<group>"; };
+		90F6BE5C2951FA48003D2A9B /* Signin2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signin2.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9015B4562950E48500749C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9015B4C62950EC2E00749C4D /* CodeScanner in Frameworks */,
+				9015B4C32950EBBF00749C4D /* iPaymentButton in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9015B4662950E48600749C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9015B4702950E48600749C4D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00EC8AB129525F6800C93BB5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				00EC8AB329525F8500C93BB5 /* LearnerListViewModel.swift */,
+				00EC8AB229525F8500C93BB5 /* NewServiceViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		00EC8AB629525F8F00C93BB5 /* Lists */ = {
+			isa = PBXGroup;
+			children = (
+				00EC8AB829525FAD00C93BB5 /* LearnerList.swift */,
+				00EC8AB729525FAD00C93BB5 /* TrainerList.swift */,
+			);
+			path = Lists;
+			sourceTree = "<group>";
+		};
+		9015B4502950E48500749C4D = {
+			isa = PBXGroup;
+			children = (
+				9015B45B2950E48500749C4D /* SkillUpLast */,
+				9015B46C2950E48600749C4D /* SkillUpLastTests */,
+				9015B4762950E48600749C4D /* SkillUpLastUITests */,
+				9015B45A2950E48500749C4D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9015B45A2950E48500749C4D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9015B4592950E48500749C4D /* SkillUpLast.app */,
+				9015B4692950E48600749C4D /* SkillUpLastTests.xctest */,
+				9015B4732950E48600749C4D /* SkillUpLastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9015B45B2950E48500749C4D /* SkillUpLast */ = {
+			isa = PBXGroup;
+			children = (
+				00EC8AB629525F8F00C93BB5 /* Lists */,
+				00EC8AB129525F6800C93BB5 /* ViewModel */,
+				00EC8AB029525ECE00C93BB5 /* SkillUpLast.entitlements */,
+				9015B4C02950EA6900749C4D /* Info.plist */,
+				9015B45C2950E48500749C4D /* SkillUpLastApp.swift */,
+				9015B45E2950E48500749C4D /* ContentView.swift */,
+				9015B4862950E51700749C4D /* onBoarding.swift */,
+				00EC8AAC2951FF3A00C93BB5 /* Teacher.swift */,
+				9015B4882950E55600749C4D /* Home.swift */,
+				9015B48C2950E58200749C4D /* TrainerInfo.swift */,
+				9015B48E2950E59400749C4D /* Favourite.swift */,
+				9015B4902950E5A100749C4D /* Booking.swift */,
+				9015B4922950E5B100749C4D /* CheckBoxView.swift */,
+				9015B4942950E5D700749C4D /* QrCodeView.swift */,
+				9015B4982950E5F600749C4D /* Bkgray.swift */,
+				9015B49A2950E60E00749C4D /* Bkgreen.swift */,
+				9015B49C2950E62000749C4D /* BKpur.swift */,
+				9015B49E2950E63300749C4D /* MyMap.swift */,
+				9015B4A02950E64300749C4D /* CodeScanningTest.swift */,
+				9015B4A22950E65200749C4D /* SignIn.swift */,
+				90F6BE5C2951FA48003D2A9B /* Signin2.swift */,
+				9015B4A42950E66000749C4D /* SugnUp.swift */,
+				00EC8AAE2952226200C93BB5 /* SugnUp2.swift */,
+				9015B4A62950E66D00749C4D /* QRFailureView.swift */,
+				9015B4A82950E68000749C4D /* QRTrue.swift */,
+				9015B4AC2950E69E00749C4D /* TabeView.swift */,
+				9015B4AE2950E6AD00749C4D /* RequestslistView.swift */,
+				9015B4B02950E6BC00749C4D /* ServicesListView.swift */,
+				9015B4B22950E6DC00749C4D /* SettingPage.swift */,
+				9015B4B42950E6E900749C4D /* AddNewService.swift */,
+				9015B4B62950E6F600749C4D /* EditService.swift */,
+				9015B4B82950E70500749C4D /* SelectButton.swift */,
+				9015B4BA2950E71600749C4D /* TrainerProfile.swift */,
+				9015B4BC2950E72400749C4D /* LearnerProfile.swift */,
+				9015B4BE2950E73500749C4D /* Payment.swift */,
+				90B494EA2950EFE5005EE03F /* MyTimer.swift */,
+				9015B4602950E48600749C4D /* Assets.xcassets */,
+				9015B4622950E48600749C4D /* Preview Content */,
+			);
+			path = SkillUpLast;
+			sourceTree = "<group>";
+		};
+		9015B4622950E48600749C4D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9015B4632950E48600749C4D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9015B46C2950E48600749C4D /* SkillUpLastTests */ = {
+			isa = PBXGroup;
+			children = (
+				9015B46D2950E48600749C4D /* SkillUpLastTests.swift */,
+			);
+			path = SkillUpLastTests;
+			sourceTree = "<group>";
+		};
+		9015B4762950E48600749C4D /* SkillUpLastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9015B4772950E48600749C4D /* SkillUpLastUITests.swift */,
+				9015B4792950E48600749C4D /* SkillUpLastUITestsLaunchTests.swift */,
+			);
+			path = SkillUpLastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9015B4582950E48500749C4D /* SkillUpLast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9015B47D2950E48600749C4D /* Build configuration list for PBXNativeTarget "SkillUpLast" */;
+			buildPhases = (
+				9015B4552950E48500749C4D /* Sources */,
+				9015B4562950E48500749C4D /* Frameworks */,
+				9015B4572950E48500749C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SkillUpLast;
+			packageProductDependencies = (
+				9015B4C22950EBBF00749C4D /* iPaymentButton */,
+				9015B4C52950EC2E00749C4D /* CodeScanner */,
+			);
+			productName = SkillUpLast;
+			productReference = 9015B4592950E48500749C4D /* SkillUpLast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9015B4682950E48600749C4D /* SkillUpLastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9015B4802950E48600749C4D /* Build configuration list for PBXNativeTarget "SkillUpLastTests" */;
+			buildPhases = (
+				9015B4652950E48600749C4D /* Sources */,
+				9015B4662950E48600749C4D /* Frameworks */,
+				9015B4672950E48600749C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9015B46B2950E48600749C4D /* PBXTargetDependency */,
+			);
+			name = SkillUpLastTests;
+			productName = SkillUpLastTests;
+			productReference = 9015B4692950E48600749C4D /* SkillUpLastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9015B4722950E48600749C4D /* SkillUpLastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9015B4832950E48600749C4D /* Build configuration list for PBXNativeTarget "SkillUpLastUITests" */;
+			buildPhases = (
+				9015B46F2950E48600749C4D /* Sources */,
+				9015B4702950E48600749C4D /* Frameworks */,
+				9015B4712950E48600749C4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9015B4752950E48600749C4D /* PBXTargetDependency */,
+			);
+			name = SkillUpLastUITests;
+			productName = SkillUpLastUITests;
+			productReference = 9015B4732950E48600749C4D /* SkillUpLastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9015B4512950E48500749C4D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					9015B4582950E48500749C4D = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					9015B4682950E48600749C4D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9015B4582950E48500749C4D;
+					};
+					9015B4722950E48600749C4D = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 9015B4582950E48500749C4D;
+					};
+				};
+			};
+			buildConfigurationList = 9015B4542950E48500749C4D /* Build configuration list for PBXProject "SkillUpLast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9015B4502950E48500749C4D;
+			packageReferences = (
+				9015B4C12950EBBF00749C4D /* XCRemoteSwiftPackageReference "iPaymentButton" */,
+				9015B4C42950EC2E00749C4D /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
+			productRefGroup = 9015B45A2950E48500749C4D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9015B4582950E48500749C4D /* SkillUpLast */,
+				9015B4682950E48600749C4D /* SkillUpLastTests */,
+				9015B4722950E48600749C4D /* SkillUpLastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9015B4572950E48500749C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9015B4642950E48600749C4D /* Preview Assets.xcassets in Resources */,
+				9015B4612950E48600749C4D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9015B4672950E48600749C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9015B4712950E48600749C4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9015B4552950E48500749C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9015B4BD2950E72400749C4D /* LearnerProfile.swift in Sources */,
+				9015B4992950E5F600749C4D /* Bkgray.swift in Sources */,
+				00EC8AB929525FAD00C93BB5 /* TrainerList.swift in Sources */,
+				9015B4A12950E64300749C4D /* CodeScanningTest.swift in Sources */,
+				9015B4AF2950E6AD00749C4D /* RequestslistView.swift in Sources */,
+				00EC8AAD2951FF3A00C93BB5 /* Teacher.swift in Sources */,
+				9015B4BF2950E73500749C4D /* Payment.swift in Sources */,
+				00EC8AB529525F8500C93BB5 /* LearnerListViewModel.swift in Sources */,
+				9015B4A92950E68000749C4D /* QRTrue.swift in Sources */,
+				9015B45F2950E48500749C4D /* ContentView.swift in Sources */,
+				9015B4912950E5A100749C4D /* Booking.swift in Sources */,
+				9015B4A52950E66000749C4D /* SugnUp.swift in Sources */,
+				9015B48F2950E59400749C4D /* Favourite.swift in Sources */,
+				9015B49D2950E62000749C4D /* BKpur.swift in Sources */,
+				9015B48D2950E58200749C4D /* TrainerInfo.swift in Sources */,
+				9015B49F2950E63300749C4D /* MyMap.swift in Sources */,
+				90B494EB2950EFE5005EE03F /* MyTimer.swift in Sources */,
+				9015B4952950E5D700749C4D /* QrCodeView.swift in Sources */,
+				9015B4932950E5B100749C4D /* CheckBoxView.swift in Sources */,
+				9015B4B12950E6BD00749C4D /* ServicesListView.swift in Sources */,
+				9015B4A72950E66D00749C4D /* QRFailureView.swift in Sources */,
+				9015B4B72950E6F600749C4D /* EditService.swift in Sources */,
+				9015B4B92950E70500749C4D /* SelectButton.swift in Sources */,
+				9015B4AD2950E69E00749C4D /* TabeView.swift in Sources */,
+				9015B45D2950E48500749C4D /* SkillUpLastApp.swift in Sources */,
+				00EC8ABA29525FAD00C93BB5 /* LearnerList.swift in Sources */,
+				9015B4BB2950E71600749C4D /* TrainerProfile.swift in Sources */,
+				9015B4892950E55600749C4D /* Home.swift in Sources */,
+				9015B49B2950E60E00749C4D /* Bkgreen.swift in Sources */,
+				90F6BE5D2951FA48003D2A9B /* Signin2.swift in Sources */,
+				9015B4B52950E6E900749C4D /* AddNewService.swift in Sources */,
+				00EC8AAF2952226200C93BB5 /* SugnUp2.swift in Sources */,
+				9015B4872950E51700749C4D /* onBoarding.swift in Sources */,
+				9015B4A32950E65200749C4D /* SignIn.swift in Sources */,
+				00EC8AB429525F8500C93BB5 /* NewServiceViewModel.swift in Sources */,
+				9015B4B32950E6DC00749C4D /* SettingPage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9015B4652950E48600749C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9015B46E2950E48600749C4D /* SkillUpLastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9015B46F2950E48600749C4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9015B4782950E48600749C4D /* SkillUpLastUITests.swift in Sources */,
+				9015B47A2950E48600749C4D /* SkillUpLastUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9015B46B2950E48600749C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9015B4582950E48500749C4D /* SkillUpLast */;
+			targetProxy = 9015B46A2950E48600749C4D /* PBXContainerItemProxy */;
+		};
+		9015B4752950E48600749C4D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9015B4582950E48500749C4D /* SkillUpLast */;
+			targetProxy = 9015B4742950E48600749C4D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9015B47B2950E48600749C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9015B47C2950E48600749C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9015B47E2950E48600749C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkillUpLast/SkillUpLast.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkillUpLast/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z677F85RR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkillUpLast/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkillUp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "SkillUpLast requires premisson to scan files";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SkillUpLast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9015B47F2950E48600749C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SkillUpLast/SkillUpLast.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SkillUpLast/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Z677F85RR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SkillUpLast/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SkillUp;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "SkillUpLast requires premisson to scan files";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SkillUpLast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9015B4812950E48600749C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z677F85RR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.SkillUpLastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillUpLast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkillUpLast";
+			};
+			name = Debug;
+		};
+		9015B4822950E48600749C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z677F85RR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Apple.SkillUpLastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SkillUpLast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SkillUpLast";
+			};
+			name = Release;
+		};
+		9015B4842950E48600749C4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z677F85RR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SkillUpLastApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkillUpLast;
+			};
+			name = Debug;
+		};
+		9015B4852950E48600749C4D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Z677F85RR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = SkillUpLastApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SkillUpLast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9015B4542950E48500749C4D /* Build configuration list for PBXProject "SkillUpLast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9015B47B2950E48600749C4D /* Debug */,
+				9015B47C2950E48600749C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9015B47D2950E48600749C4D /* Build configuration list for PBXNativeTarget "SkillUpLast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9015B47E2950E48600749C4D /* Debug */,
+				9015B47F2950E48600749C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9015B4802950E48600749C4D /* Build configuration list for PBXNativeTarget "SkillUpLastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9015B4812950E48600749C4D /* Debug */,
+				9015B4822950E48600749C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9015B4832950E48600749C4D /* Build configuration list for PBXNativeTarget "SkillUpLastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9015B4842950E48600749C4D /* Debug */,
+				9015B4852950E48600749C4D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9015B4C12950EBBF00749C4D /* XCRemoteSwiftPackageReference "iPaymentButton" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/benjaminsage/iPaymentButton";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		9015B4C42950EC2E00749C4D /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9015B4C22950EBBF00749C4D /* iPaymentButton */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9015B4C12950EBBF00749C4D /* XCRemoteSwiftPackageReference "iPaymentButton" */;
+			productName = iPaymentButton;
+		};
+		9015B4C52950EC2E00749C4D /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9015B4C42950EC2E00749C4D /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9015B4512950E48500749C4D /* Project object */;
+}
