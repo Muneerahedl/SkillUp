@@ -32,7 +32,7 @@ struct Favourite: View {
                     ScrollView{
                         
                         HStack{
-                            Image("Yoga").resizable().frame(width: 100 , height: 100)
+                            Image("Jewelry Making").resizable().frame(width: 100 , height: 100)
                             
                             VStack{
                                 
@@ -49,14 +49,14 @@ struct Favourite: View {
                                 
                                 HStack{
                                     Text("Time:").font(.system(size: 16)).bold()
-                                    Text("15:00").font(.system(size: 16))
+                                    Text("12:00").font(.system(size: 16))
                                     Spacer()
                                 }
                                 
                                 HStack{
                                     
                                     Text("Trainer:").font(.system(size: 16)).bold()
-                                    Text("Salwa Hakim").font(.system(size: 16))
+                                    Text("Esra Fahad").font(.system(size: 16))
                                     Spacer(minLength: 20)
                                   
                                        
@@ -76,18 +76,18 @@ struct Favourite: View {
                         }.frame(width: 350 , height: 130).background(Color.ColorS).cornerRadius(17.5)
                         
                         HStack{
-                            Image("Yoga").resizable().frame(width: 100 , height: 100)
+                            Image("Swimming").resizable().frame(width: 100 , height: 100)
                             
                             VStack{
                                 
                                 HStack{
                                     Text("Session Name:").bold().font(.system(size: 16))
-                                    Text("Jewerly Making").font(.system(size: 16))
+                                    Text("Swimming").font(.system(size: 16))
                                 }
                                 
                                 HStack{
                                     Text("Date:").bold().font(.system(size: 16))
-                                    Text("1-3-2023").font(.system(size: 16))
+                                    Text("4-9-2023").font(.system(size: 16))
                                     Spacer()
                                 }
                                 

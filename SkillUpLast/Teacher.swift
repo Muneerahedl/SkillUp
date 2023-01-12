@@ -6,9 +6,9 @@ struct Teacher: View {
 Teacherr(
 Image: "Teach1",
 Title: "Noura Saad" ,
-Text1: "Profession: Arabic callgrapy" ,
-Text2: "Experience: 12 years" ,
-Text3: "Session time: 1hr" ,
+Text1: "Profession: Japanese callgrapy" ,
+Text2: "Experience: 22 years" ,
+Text3: "Session time: 2 hours" ,
 Text4: "Clients: 8",
 Text5: "Tools: Provided",
 Comment: "Comment(23)"
@@ -19,7 +19,7 @@ Comment: "Comment(23)"
         Title: "Omar Khaild" ,
         Text1: "Profession: Arabic callgrapy" ,
         Text2: "Experience: 20 years" ,
-        Text3: "Session time: 30hr" ,
+        Text3: "Session time: 2 hours" ,
         Text4: "Clients: 30",
         Text5: "Tools: Provided",
         Comment: "Comment(50)"
@@ -30,7 +30,7 @@ Comment: "Comment(23)"
         Title: "Noura Fisal" ,
         Text1: "Profession: Japanese callgrapy" ,
         Text2: "Experience: 12 years" ,
-        Text3: "Session time: 1hrr" ,
+        Text3: "Session time: 2 hours" ,
         Text4: "Clients: 3",
         Text5: "Tools: Not Provided",
         Comment: "Comment(23)"

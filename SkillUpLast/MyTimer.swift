@@ -19,7 +19,7 @@ struct MyTimer: View {
             ZStack{
 
                 Text("Booking Status")
-                    .font(.title)
+                    //.font(.title)
                     .bold()
                     .foregroundColor(Color(red: 0.375, green: 0.336, blue: 0.722))
                     .padding(.top, -210.0)

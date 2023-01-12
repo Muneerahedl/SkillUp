@@ -136,7 +136,8 @@ struct onBoarding: View {
                                     .frame(width: 120 , height: 30)
                                     .foregroundColor(.white)
                                 //Word
-                                Text("Continue as a guest")
+                                NavigationLink(destination: Home()){
+                                    Text("Continue as a guest")}
                                     .foregroundColor(Color(red: 0.289, green: 0.667, blue: 0.489))
                                     .padding(.top, 650)
                                 // }

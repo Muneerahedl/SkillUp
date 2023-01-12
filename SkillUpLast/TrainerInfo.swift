@@ -21,7 +21,7 @@ struct TrainerInfo: View {
                                     .font(.system(size: 20 ))
                                     .bold()
                             }
-                            HeratButton()
+                            HeratButton2()
                         }
                         
                         Divider()
@@ -126,7 +126,7 @@ struct TrainerInfo: View {
             
         }
         .navigationTitle("Trainer info")
-        .navigationBarBackButtonHidden(true)
+       // .navigationBarBackButtonHidden(true)
         
     }
 }
@@ -152,11 +152,34 @@ struct HeratButton : View{
                 .resizable()
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 30)
-                .foregroundColor(isLike ? .red : .gray)
+                .foregroundColor(isLike ? .gray : .red)
         }
         
     }
 }
+
+struct HeratButton2 : View{
+    @State var isLike2 = false
+    var body: some View{
+        Button {
+            self.isLike2.toggle()
+             
+            if(isLike2 == true){
+                
+            }
+            
+        } label: {
+            Image(systemName: isLike2 ? "heart.fill" : "heart.fill")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+                .frame(width: 30)
+                .foregroundColor(isLike2 ? .red : .gray)
+        }
+        
+    }
+}
+
+
 
 //Top
 //                    ZStack{

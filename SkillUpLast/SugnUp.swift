@@ -67,7 +67,7 @@ struct SugnUp: View {
                     Image(systemName: "lock.fill")
                         .padding()
                     TextField("Password" , text: $password)
-                    Image(systemName: "eye.slash.fill")
+                    Image(systemName: "eye.fill")
                         .padding()
                 }
                 .frame(width: 320.0, height: 50.0)
